@@ -1,0 +1,66 @@
+.bgimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("https://images.wallpaperpass.com/1684360343_rpaq44jr8wp.jpg?aspect_ratio=30:23&width=300&contrast=8&quality=100");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+}
+
+.spotfy{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.bgblur{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    left: 150px;
+}
+
+.login-container{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb( 39, 79, 140,0 ); */
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+border-radius: 30px;
+/* filter:blur(1.1px); */
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.log-btn{
+    text-align: center;
+    border-radius: 50px ;
+    padding: 15px 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    margin-top: 15px;
+}
+
+.login-container a{
+    text-decoration: none;
+}
+
+.login-container p{
+    font-size: 26px;
+    font-weight: 500;
+    /* color: #00655A; */
+    /* color: #14228F; */
+    color: #fff;
+
+}

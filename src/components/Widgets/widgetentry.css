@@ -1,0 +1,31 @@
+.entry-body{
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.entryimage{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.entry-right{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.entrytitle{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    color: #c9d0e3;
+}
+
+.entrysub{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: #c4d0e37c;
+}

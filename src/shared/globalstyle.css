@@ -1,0 +1,12 @@
+.screen-container{
+    width: calc(100% - 100px);
+    height: 100%;
+    border-radius: 30px;
+    /* background-color: #1E2A3E; */
+
+    background-image: linear-gradient(to right, #1E2A3E, #5370a3); 
+}
+
+.flex{
+    display: flex;
+}
